@@ -76,8 +76,8 @@ state=False
 #     print('Capturing Photo')
 #     subprocess.call(["raspistill", "-o", "/home/pi/Desktop/Sump.jpg"])
 #     time.sleep(0.5)
-#     email_sender = 'sumptankalarm@gmail.com'
-#     email_receiver = 'sumptankalarm@gmail.com'
+#     email_sender = 'xxxxxxxxxxxx' //censorship due to privacy
+#     email_receiver = 'xxxxxxxxxxxx' //censorship due to privacy
 #     subject = 'Sump Over Flow'
 #    msg = MIMEMultipart()
 #    msg['From'] = email_sender
@@ -97,7 +97,7 @@ state=False
     # text = msg.as_string()
     # connection = smtplib.SMTP('smtp.gmail.com', 587)
     # connection.starttls()
-    # connection.login(email_sender, 'sumptank420')
+    # connection.login(email_sender, 'xxxxxxxxxxxxxx') //censorship due to privacy
     # connection.sendmail(email_sender, email_receiver, text )
     # connection.quit()
     # GPIO.output(26,GPIO.HIGH) # Turn off Emergency Lights
